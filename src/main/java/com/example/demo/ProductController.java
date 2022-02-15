@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ProductController {
 String s="narendra";
+int i=10;
 	@Autowired
 	private ProductRepository repo;
 	@PostMapping(value="/product",consumes = MediaType.APPLICATION_JSON_VALUE)
